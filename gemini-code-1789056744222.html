@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahmudur Rahman | AI Researcher/CTO/CEO/CPO/COO</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              cyan: '#06b6d4',
+              violet: '#8b5cf6',
+              emerald: '#10b981',
+              dark: '#030712',
+              card: '#0b1329',
+              border: '#1e293b'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .executive-gradient {
+      background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .mesh-glow {
+      position: absolute;
+      width: 550px;
+      height: 550px;
+      filter: blur(140px);
+      border-radius: 9999px;
+      opacity: 0.18;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .glass-card {
+      background: rgba(11, 19, 41, 0.75);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+  </style>
+</head>
+<body class="bg-[#030712] text-slate-100 antialiased selection:bg-cyan-500 selection:text-white relative overflow-x-hidden">
+
+  <!-- Ambient Glow Effects -->
+  <div class="mesh-glow bg-cyan-500 -top-40 -left-40"></div>
+  <div class="mesh-glow bg-violet-600 top-1/3 -right-40"></div>
+  <div class="mesh-glow bg-emerald-500 bottom-10 left-1/4"></div>
+
+  <!-- Header -->
+  <header class="border-b border-slate-800/80 bg-[#030712]/90 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex flex-wrap justify-between items-center gap-4 relative z-10">
+      <div class="space-y-0.5">
+        <h1 class="text-xl font-black tracking-tight text-white flex items-center gap-2">
+          <span class="w-3 h-3 rounded-full bg-cyan-400 shadow-[0_0_14px_#22d3ee]"></span>
+          MAHMUDUR RAHMAN
+        </h1>
+        <div class="text-xs font-extrabold uppercase tracking-wider text-cyan-400">
+          AI Researcher/CTO/CEO/CPO/COO
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="https://www.linkedin.com/in/mahmudur-rahman-a443bb71" target="_blank" rel="noopener noreferrer"
+           class="px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-900/90 hover:bg-slate-800 text-slate-200 border border-slate-700/80 transition flex items-center gap-1.5">
+          <i class="fa-brands fa-linkedin text-blue-400 text-sm"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://aust.academia.edu/MahmudurRahman" target="_blank" rel="noopener noreferrer"
+           class="px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-slate-900/90 hover:bg-slate-800 text-slate-200 border border-slate-700/80 transition flex items-center gap-1.5">
+          <i class="fa-solid fa-graduation-cap text-cyan-400 text-sm"></i>
+          <span>Academia</span>
+        </a>
+        <a href="mailto:bappy1182@gmail.com"
+           class="px-4 py-1.5 rounded-lg text-xs font-bold bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white shadow-lg shadow-cyan-500/20 transition flex items-center gap-1.5">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>Connect</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-6 py-12 md:py-16 space-y-20 relative z-10">
+
+    <!-- Hero / Positioning Section -->
+    <section class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center border-b border-slate-800/80 pb-16">
+      
+      <!-- Executive Photo Card -->
+      <div class="lg:col-span-5 flex flex-col items-center text-center space-y-4">
+        <div class="relative group">
+          <div class="absolute -inset-1.5 bg-gradient-to-r from-cyan-500 via-indigo-500 to-purple-600 rounded-3xl blur-lg opacity-75 group-hover:opacity-100 transition duration-500"></div>
+          <div class="relative w-64 sm:w-72 h-80 sm:h-96 rounded-2xl overflow-hidden border-2 border-slate-700/80 bg-slate-900 shadow-2xl">
+            <!-- References your attached image file pp-12.jpg (with fallback to pp-1_optimized_25.jpg) -->
+            <img src="pp-12.jpg" alt="Mahmudur Rahman" class="w-full h-full object-cover object-top transition duration-500 group-hover:scale-105" onerror="this.onerror=null; this.src='pp-1_optimized_25.jpg';" />
+          </div>
+        </div>
+        <div class="space-y-1">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950/70 border border-emerald-500/40 text-emerald-300 text-xs font-semibold">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+            Available for Executive Roles
+          </div>
+          <p class="text-xs text-slate-400 pt-1">Dhaka, Bangladesh | +880 1626078889[cite: 4]</p>
+        </div>
+      </div>
+
+      <!-- Executive Pitch -->
+      <div class="lg:col-span-7 space-y-6 text-left">
+        <div>
+          <span class="text-xs uppercase font-extrabold tracking-widest text-cyan-400">Executive Portfolio &amp; Strategic Profile</span>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-white mt-1">
+            Mahmudur Rahman[cite: 4]
+          </h2>
+          <div class="text-lg sm:text-xl font-extrabold executive-gradient tracking-wide mt-2">
+            AI Researcher/CTO/CEO/CPO/COO
+          </div>
+        </div>
+
+        <p class="text-slate-300 text-base sm:text-lg leading-relaxed font-light">
+          Senior IT, AI &amp; Commercial Compliance Executive with 18+ years of enterprise governance across commercial supply chains, international trade compliance (LC), and Customs Bond administration, unified with applied LLM research, prompt scripting, Cisco-certified network defense, and scalable agile transformation[cite: 4].
+        </p>
+
+        <!-- Availability Banner -->
+        <div class="p-4 rounded-xl glass-card border border-cyan-500/40 text-sm flex items-center gap-3 shadow-lg shadow-cyan-950/40">
+          <i class="fa-solid fa-earth-americas text-cyan-400 text-xl flex-shrink-0"></i>
+          <span class="font-semibold text-slate-100">
+            Looking for open for all remote, hybrid, on-site jobs &amp; Open to Global Relocation
+          </span>
+        </div>
+
+        <!-- Metric Highlights -->
+        <div class="flex flex-wrap gap-2 text-xs">
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 font-medium">
+            <i class="fa-solid fa-award text-amber-400 mr-1.5"></i>15-Year Service Loyalty Award (Epyllion)[cite: 4]
+          </span>
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 font-medium">
+            <i class="fa-solid fa-trophy text-amber-400 mr-1.5"></i>Guinness World Record Participant[cite: 4]
+          </span>
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 font-medium">
+            <i class="fa-solid fa-shield-halved text-emerald-400 mr-1.5"></i>80% Documentation Risk Reduction[cite: 4]
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Strategic Executive Standards (6 Pillars) -->
+    <section class="space-y-8">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-widest text-cyan-400">Core Governance &amp; Innovation</span>
+        <h3 class="text-2xl sm:text-3xl font-extrabold text-white mt-1">Six Strategic Executive Pillars</h3>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Pillar 1: CPO -->
+        <div class="group glass-card p-6 rounded-2xl border border-slate-800/90 hover:border-cyan-500/50 transition-all duration-300 space-y-3 shadow-xl">
+          <div class="w-12 h-12 rounded-xl bg-cyan-950 border border-cyan-700/60 flex items-center justify-center text-cyan-400 group-hover:scale-110 transition">
+            <i class="fa-solid fa-boxes-packing text-xl"></i>
+          </div>
+          <h4 class="text-lg font-bold text-white group-hover:text-cyan-300 transition">1. CPO | Supply Chain &amp; Compliance</h4>
+          <p class="text-xs text-slate-300 leading-relaxed font-light">
+            Commercial import/export operations, Letter of Credit (LC) banking governance, Customs Bond compliance audits, retail, store &amp; warehouse control systems, and enterprise contract execution[cite: 4].
+          </p>
+        </div>
+
+        <!-- Pillar 2: CTO -->
+        <div class="group glass-card p-6 rounded-2xl border border-slate-800/90 hover:border-violet-500/50 transition-all duration-300 space-y-3 shadow-xl">
+          <div class="w-12 h-12 rounded-xl bg-violet-950 border border-violet-700/60 flex items-center justify-center text-violet-400 group-hover:scale-110 transition">
+            <i class="fa-solid fa-network-wired text-xl"></i>
+          </div>
+          <h4 class="text-lg font-bold text-white group-hover:text-violet-300 transition">2. CTO | IT &amp; Cybersecurity</h4>
+          <p class="text-xs text-slate-300 leading-relaxed font-light">
+            Enterprise computer hardware/software infrastructure, systems administration, network security, Cisco cybersecurity &amp; CEH ethical hacking, CompTIA A+ frameworks, and Python/Java programming[cite: 4].
+          </p>
+        </div>
+
+        <!-- Pillar 3: AI Researcher -->
+        <div class="group glass-card p-6 rounded-2xl border border-slate-800/90 hover:border-cyan-500/50 transition-all duration-300 space-y-3 shadow-xl">
+          <div class="w-12 h-12 rounded-xl bg-cyan-950 border border-cyan-700/60 flex items-center justify-center text-cyan-400 group-hover:scale-110 transition">
+            <i class="fa-solid fa-brain text-xl"></i>
+          </div>
+          <h4 class="text-lg font-bold text-white group-hover:text-cyan-300 transition">3. AI Researcher | LLMs &amp; Data</h4>
+          <p class="text-xs text-slate-300 leading-relaxed font-light">
+            Multimodal AI data annotation, visual and semantic extraction (TELUS Digital), prompt engineering and scripting, dataset translation/transcription, model benchmarking, and analytics[cite: 4].
+          </p>
+        </div>
+
+        <!-- Pillar 4: CEO -->
+        <div class="group glass-card p-6 rounded-2xl border border-slate-800/90 hover:border-emerald-500/50 transition-all duration-300 space-y-3 shadow-xl">
+          <div class="w-12 h-12 rounded-xl bg-emerald-950 border border-emerald-700/60 flex items-center justify-center text-emerald-400 group-hover:scale-110 transition">
+            <i class="fa-solid fa-chart-line text-xl"></i>
+          </div>
+          <h4 class="text-lg font-bold text-white group-hover:text-emerald-300 transition">4. CEO | Strategy &amp; Sustainability</h4>
+          <p class="text-xs text-slate-300 leading-relaxed font-light">
+            Long-term organizational vision, executive P&amp;L governance, sustainable growth modeling, corporate resilience, and translating cross-functional operational metrics into strategic boardroom decisions.
+          </p>
+        </div>
+
+        <!-- Pillar 5: Project & Creative -->
+        <div class="group glass-card p-6 rounded-2xl border border-slate-800/90 hover:border-amber-500/50 transition-all duration-300 space-y-3 shadow-xl">
+          <div class="w-12 h-12 rounded-xl bg-amber-950 border border-amber-700/60 flex items-center justify-center text-amber-400 group-hover:scale-110 transition">
+            <i class="fa-solid fa-diagram-project text-xl"></i>
+          </div>
+          <h4 class="text-lg font-bold text-white group-hover:text-amber-300 transition">5. Project &amp; Digital Media</h4>
+          <p class="text-xs text-slate-300 leading-relaxed font-light">
+            Agile PM sprint delivery, ERP rollouts (SAP, Oracle), and creative asset architecture using Adobe Photoshop, Canva, CapCut, Microsoft Clipchamp, and generative AI media pipelines[cite: 4].
+          </p>
+        </div>
+
+        <!-- Pillar 6: COO -->
+        <div class="group glass-card p-6 rounded-2xl border border-slate-800/90 hover:border-indigo-500/50 transition-all duration-300 space-y-3 shadow-xl">
+          <div class="w-12 h-12 rounded-xl bg-indigo-950 border border-indigo-700/60 flex items-center justify-center text-indigo-400 group-hover:scale-110 transition">
+            <i class="fa-solid fa-users-gear text-xl"></i>
+          </div>
+          <h4 class="text-lg font-bold text-white group-hover:text-indigo-300 transition">6. COO | Operations &amp; HR</h4>
+          <p class="text-xs text-slate-300 leading-relaxed font-light">
+            Strategic operations oversight, HR-Administration leadership, organizational process re-engineering, occupational safety governance, and certified fire fighting &amp; emergency rescue management[cite: 4].
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Career Timeline -->
+    <section class="space-y-8 border-t border-slate-800/80 pt-16">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-widest text-slate-400">Experience Track</span>
+        <h3 class="text-2xl sm:text-3xl font-bold text-white mt-1">Executive Work Highlights</h3>
+      </div>
+
+      <div class="space-y-6">
+        
+        <!-- TELUS Digital -->
+        <div class="p-6 sm:p-8 rounded-2xl glass-card border border-slate-800 hover:border-slate-700 transition space-y-3">
+          <div class="flex flex-wrap justify-between items-start gap-2">
+            <div>
+              <h4 class="text-lg font-bold text-white">Freelance Researcher — AI Data Annotation</h4>
+              <p class="text-xs font-semibold text-cyan-400">TELUS Digital, USA (Remote)[cite: 4]</p>
+            </div>
+            <span class="text-xs px-3 py-1 rounded-md bg-slate-900 border border-slate-700 text-slate-300">Sep 2025 – Present[cite: 4]</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-light">
+            Conducting high-fidelity visual and semantic extraction, multimodal data annotation (audio, video, image), prompt quantification, and dataset quality classification for foundation LLM training pipelines[cite: 4].
+          </p>
+        </div>
+
+        <!-- Dreamport -->
+        <div class="p-6 sm:p-8 rounded-2xl glass-card border border-slate-800 hover:border-slate-700 transition space-y-3">
+          <div class="flex flex-wrap justify-between items-start gap-2">
+            <div>
+              <h4 class="text-lg font-bold text-white">Independent Travel Manager — Customer Support &amp; CMS</h4>
+              <p class="text-xs font-semibold text-cyan-400">Dreamport (ASAP Tickets), USA (Remote)[cite: 4]</p>
+            </div>
+            <span class="text-xs px-3 py-1 rounded-md bg-slate-900 border border-slate-700 text-slate-300">Jan 2025 – Aug 2025[cite: 4]</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-light">
+            Managed CMS operations, ticket issuing, lead qualification, and end-to-end client support for high-volume customer accounts[cite: 4].
+          </p>
+        </div>
+
+        <!-- Epyllion Assistant Manager -->
+        <div class="p-6 sm:p-8 rounded-2xl glass-card border border-slate-800 hover:border-slate-700 transition space-y-3">
+          <div class="flex flex-wrap justify-between items-start gap-2">
+            <div>
+              <h4 class="text-lg font-bold text-white">Assistant Manager — Commercial &amp; Supply Chain</h4>
+              <p class="text-xs font-semibold text-cyan-400">Epyllion Group, Dhaka[cite: 4]</p>
+            </div>
+            <span class="text-xs px-3 py-1 rounded-md bg-slate-900 border border-slate-700 text-slate-300">Jul 2018 – Jan 2025[cite: 4]</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-light">
+            Directed commercial import/export logistics, LC banking compliance, Customs Bond operations, and warehouse logistics[cite: 4]. Cut documentation errors by 80% through digitized optimization and ERP alignment[cite: 4].
+          </p>
+        </div>
+
+        <!-- Epyllion Progressive Roles -->
+        <div class="p-6 sm:p-8 rounded-2xl glass-card border border-slate-800 hover:border-slate-700 transition space-y-3">
+          <div class="flex flex-wrap justify-between items-start gap-2">
+            <div>
+              <h4 class="text-lg font-bold text-white">Senior Executive to Assistant Executive — Commercial &amp; IT</h4>
+              <p class="text-xs font-semibold text-cyan-400">Epyllion Group, Dhaka[cite: 4]</p>
+            </div>
+            <span class="text-xs px-3 py-1 rounded-md bg-slate-900 border border-slate-700 text-slate-300">Jul 2007 – Jul 2018[cite: 4]</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-light">
+            Progressed across 4 organizational tiers over 11 years managing packaging accessories trade, in-bond/ex-bond customs reconciliation, and providing hardware, software, and network IT system maintenance[cite: 4].
+          </p>
+        </div>
+
+        <!-- Sobar Jonno -->
+        <div class="p-6 sm:p-8 rounded-2xl glass-card border border-slate-800 hover:border-slate-700 transition space-y-3">
+          <div class="flex flex-wrap justify-between items-start gap-2">
+            <div>
+              <h4 class="text-lg font-bold text-white">Group Leader — IT Administration &amp; Data Systems</h4>
+              <p class="text-xs font-semibold text-cyan-400">Sobar Jonno, Dhaka[cite: 4]</p>
+            </div>
+            <span class="text-xs px-3 py-1 rounded-md bg-slate-900 border border-slate-700 text-slate-300">Feb 2007 – Jul 2007[cite: 4]</span>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-light">
+            Led IT support engineers in building and implementing the Personnel Management Information System (PMIS) database for the Bangladesh Air Force[cite: 4].
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Education & Credentials -->
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 border-t border-slate-800/80 pt-16">
+      
+      <!-- Academic Degrees -->
+      <div class="p-6 sm:p-8 rounded-2xl glass-card border border-slate-800 space-y-6">
+        <h4 class="text-xl font-bold text-white flex items-center gap-3">
+          <i class="fa-solid fa-graduation-cap text-cyan-400"></i> Academic Degrees
+        </h4>
+        <div class="space-y-4 divide-y divide-slate-800 text-xs sm:text-sm">
+          <div class="pt-2">
+            <div class="font-bold text-white text-base">MBA in Management Information Systems (MIS)[cite: 4]</div>
+            <div class="text-slate-400">Ahsanullah University of Science and Technology (AUST) | 2014[cite: 4]</div>
+          </div>
+          <div class="pt-4">
+            <div class="font-bold text-white text-base">B.Sc. in Computer Science &amp; Engineering[cite: 4]</div>
+            <div class="text-slate-400">The People's University of Bangladesh | 2009[cite: 4]</div>
+          </div>
+          <div class="pt-4">
+            <div class="font-bold text-white text-base">4-Year Diploma in Computer Technology[cite: 4]</div>
+            <div class="text-slate-400">Bangladesh Technical Education Board (BTEB) / IIST | 2007[cite: 4]</div>
+          </div>
+          <div class="pt-4">
+            <div class="font-bold text-white text-base">Industrial Attachment in Computing[cite: 2]</div>
+            <div class="text-slate-400">Bangladesh Atomic Energy Commission (AERE, Savar) | 2006[cite: 2]</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Verified Certifications -->
+      <div class="p-6 sm:p-8 rounded-2xl glass-card border border-slate-800 space-y-6">
+        <h4 class="text-xl font-bold text-white flex items-center gap-3">
+          <i class="fa-solid fa-certificate text-cyan-400"></i> Verified Certifications
+        </h4>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+          <div class="p-3.5 rounded-xl bg-slate-900/90 border border-slate-800">
+            <div class="font-bold text-white">Basics of Python (Level 7)[cite: 2]</div>
+            <div class="text-slate-400 text-[11px] mt-0.5">CIQ, UK &amp; UniAthena (96/100)[cite: 2]</div>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-900/90 border border-slate-800">
+            <div class="font-bold text-white">Cisco Cybersecurity &amp; CEH[cite: 2, 4]</div>
+            <div class="text-slate-400 text-[11px] mt-0.5">Cisco Networking Academy[cite: 2]</div>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-900/90 border border-slate-800">
+            <div class="font-bold text-white">Google Analytics Professional[cite: 2]</div>
+            <div class="text-slate-400 text-[11px] mt-0.5">Coursera Project Network[cite: 2]</div>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-900/90 border border-slate-800">
+            <div class="font-bold text-white">Marketing Strategy &amp; Design[cite: 2]</div>
+            <div class="text-slate-400 text-[11px] mt-0.5">LinkedIn Certified Professional[cite: 2]</div>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-900/90 border border-slate-800">
+            <div class="font-bold text-white">Agile Project Management[cite: 4]</div>
+            <div class="text-slate-400 text-[11px] mt-0.5">Agile PM Frameworks</div>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-900/90 border border-slate-800">
+            <div class="font-bold text-white">Fire Fighting &amp; Rescue[cite: 2, 4]</div>
+            <div class="text-slate-400 text-[11px] mt-0.5">Govt Fire Service Directorate[cite: 2]</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Arsenal Badges -->
+    <section class="space-y-4 border-t border-slate-800/80 pt-16">
+      <h4 class="text-xs font-bold uppercase tracking-widest text-slate-400">Technical &amp; Operational Toolkit</h4>
+      <div class="flex flex-wrap gap-2 text-xs">
+        <span class="px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-slate-800 text-slate-300 font-medium">SAP ERP[cite: 4]</span>
+        <span class="px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-slate-800 text-slate-300 font-medium">Oracle Database[cite: 4]</span>
+        <span class="px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-slate-800 text-slate-300 font-medium">SQL[cite: 4]</span>
+        <span class="px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-slate-800 text-slate-300 font-medium">Power BI &amp; Tableau[cite: 4]</span>
+        <span class="px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-slate-800 text-slate-300 font-medium">Python 3 (NLP / Automation)[cite: 4]</span>
+        <span class="px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-slate-800 text-slate-300 font-medium">Generative AI / LLMs / Prompt Scripting[cite: 4]</span>
+        <span class="px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-slate-800 text-slate-300 font-medium">AI Data Annotation &amp; Visual Extraction[cite: 4]</span>
+        <span class="px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-slate-800 text-slate-300 font-medium">CompTIA A+ &amp; Ethical Hacking[cite: 4]</span>
+        <span class="px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-slate-800 text-slate-300 font-medium">Trade Finance / Banking LC Compliance[cite: 4]</span>
+        <span class="px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-slate-800 text-slate-300 font-medium">Customs Bond Administration[cite: 4]</span>
+        <span class="px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-slate-800 text-slate-300 font-medium">Adobe Photoshop &amp; Premiere[cite: 4]</span>
+        <span class="px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-slate-800 text-slate-300 font-medium">Canva / CapCut / Clipchamp / Gemini[cite: 4]</span>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800/80 py-10 bg-[#020617] text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-6 space-y-3">
+      <p class="text-slate-400 font-medium">Mahmudur Rahman — AI Researcher/CTO/CEO/CPO/COO[cite: 4]</p>
+      <div class="flex justify-center items-center gap-4">
+        <a href="https://aust.academia.edu/MahmudurRahman" target="_blank" rel="noopener noreferrer" class="hover:text-cyan-400 transition">Academia</a>
+        <span>•</span>
+        <a href="https://www.linkedin.com/in/mahmudur-rahman-a443bb71" target="_blank" rel="noopener noreferrer" class="hover:text-cyan-400 transition">LinkedIn</a>
+        <span>•</span>
+        <a href="mailto:bappy1182@gmail.com" class="hover:text-cyan-400 transition">Email[cite: 4]</a>
+      </div>
+      <p class="text-[11px] text-slate-600">Designed for GitHub Pages &amp; Executive Portfolios.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
